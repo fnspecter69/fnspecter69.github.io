@@ -4,8 +4,12 @@ body {
 header {
   background-color: yellow;
 }
-header .h1{
+header h1{
   font-size: 14px;
   color: green;
   font-family: sans-serif;
+}
+.menu{
+  display: block;
+  background-color: grey;
 }
