@@ -5,11 +5,15 @@ header {
   background-color: yellow;
 }
 header h1{
-  font-size: 14px;
+  font-size: 30px;
   color: green;
   font-family: sans-serif;
 }
-.menu{
-  display: block;
+nav{
   background-color: grey;
+}
+#menu li{
+  display: inline;
+  font-size: 24px;
+  color: white;
 }
