@@ -5,5 +5,5 @@ var main = function(){
   /*display date of last build and use either grunt or gulp to do it*/
 };
 /*use the .hover() function to change the background-color of the tabs*/
-/*running the page*/
+
 $(document).ready(main);
