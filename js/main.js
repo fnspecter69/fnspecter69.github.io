@@ -3,7 +3,7 @@ var main = function(){
   console.log("Still in development getting real functionallity soon.");
 
   /*display date of last build and use either grunt or gulp to do it*/
+  /*adding selecter to change color*/
 };
-/*use the .hover() function to change the background-color of the tabs*/
 
 $(document).ready(main);
