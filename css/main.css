@@ -21,12 +21,37 @@ body {
   text-align: center;
 }
 
+.jumbotron{
+  font-family: "Times New Roman", Times, serif;
+}
+
 .jumbotron h1{
   font-size: 30px;
 }
 
 .jumbotron p{
   font-size: 20px;
+}
+
+#slider{
+  width: 1336px;
+  height: 728px;
+  overflow: hidden;
+}
+
+#slider .slides{
+  display: block;
+  width: 600px;
+  height: 400px;
+  margin: 0;
+  padding: 0;
+}
+
+#slider .slide{
+  float: left;
+  list-style-type: none;
+  width: 720px;
+  height: 400px;
 }
 
 footer{
