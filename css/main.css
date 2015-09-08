@@ -7,6 +7,14 @@ body {
   background-color: beige;
 }
 
+.navbar-inverse .navbar-brand{
+  color: #13EAB0;
+}
+
+.navbar-inverse .navbar-brand:hover{
+  color: #5E5E5E;
+}
+
 .jumbotron{
   background-color: yellow;
   font-family: sans-serif;
