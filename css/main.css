@@ -15,6 +15,10 @@ body {
   color: #5E5E5E;
 }
 
+.navbar-inverse .navbar-nav>li>a{
+  color: rgb(218, 24, 242);
+}
+
 .jumbotron{
   background-color: yellow;
   font-family: sans-serif;
