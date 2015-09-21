@@ -19,13 +19,17 @@ body {
   color: rgb(218, 24, 242);
 }
 
+.navbar-inverse .navbar-toggle .icon-bar{
+  background-color: #13EAB0;
+}
+
 .jumbotron{
   background-color: yellow;
   font-family: sans-serif;
   text-align: center;
 }
 
-.jumbotron{
+.jumbotron p{
   font-family: "Times New Roman", Times, serif;
 }
 
