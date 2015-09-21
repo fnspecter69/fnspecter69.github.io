@@ -2,3 +2,7 @@ body{
   text-align: left;
   background-color: rgb(130, 16, 226); 
 }
+
+#aboutJumbotron{
+  background-color: grey;
+}
