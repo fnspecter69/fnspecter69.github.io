@@ -10,7 +10,7 @@ var main = function(){
 
   //change color of jumbotron when clicked
   $(".jumbotron").click(function(){
-
+    
   });
 };
 
