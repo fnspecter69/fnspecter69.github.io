@@ -7,16 +7,11 @@ var main = function(){
 
   /*display date of last build and use either grunt or gulp to do it*/
   /*adding selecter to change color*/
-  
-  //user node.js HTTPS server to make a dynamic site on home
-  var https = ('https');
-  http.get("http://www.google.com/index.html", function(res) {
-  console.log("Got response: " + res.statusCode);
-  // consume response body
-  res.resume();
-}).on('error', function(e) {
-  console.log("Got error: " + e.message);
-});
+
+  //change color of jumbotron when clicked
+  $(".jumbotron").click(function(){
+
+  });
 };
 
 $(document).ready(main);
