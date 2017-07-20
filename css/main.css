@@ -35,6 +35,10 @@ body {
   font-size: 20px;
 }
 
+.skills p{
+  font-weight: bold;
+}
+
 .site-footer{
   text-align: center;
   background-color: gray;
