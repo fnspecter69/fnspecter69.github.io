@@ -54,3 +54,9 @@ body {
 .site-footer p{
 	color: #ffffff;
 }
+
+@media only screen and (max-device-width: 480px) {
+    .site-footer{
+      position: absolute;
+    }
+}
