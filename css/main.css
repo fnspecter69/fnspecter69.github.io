@@ -59,6 +59,10 @@ body {
 	color: #ffffff;
 }
 
+.site-footer ul li{
+  display: inline-block;
+}
+
 @media only screen and (max-device-width: 480px) {
     .site-footer{
       position: absolute;
