@@ -35,6 +35,10 @@ body {
   font-size: 20px;
 }
 
+.skills p{
+  font-weight: bold;
+}
+
 .site-footer{
   text-align: center;
   background-color: gray;
@@ -53,4 +57,10 @@ body {
 
 .site-footer p{
 	color: #ffffff;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .site-footer{
+      position: absolute;
+    }
 }
