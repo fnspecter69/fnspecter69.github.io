@@ -3,6 +3,8 @@ body {
   margin: 0;
   overflow-y: scroll;
   background-color: beige;
+  min-height: 100%;
+  height: auto;
 }
 
 .navbar-inverse .navbar-brand{
@@ -43,12 +45,11 @@ body {
   text-align: center;
   background-color: gray;
   position: absolute;
-  padding-bottom: 0px;
+  height: 15px;
   width: 100%;
   bottom: 0px;
   left: 0px;
   right: 0px;
-  margin-bottom: 0px;
 }
 
 .site-footer h4{
@@ -61,10 +62,4 @@ body {
 
 .site-footer ul li{
   display: inline-block;
-}
-
-@media only screen and (max-device-width: 480px) {
-    .site-footer{
-      position: absolute;
-    }
 }
