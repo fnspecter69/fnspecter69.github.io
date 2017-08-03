@@ -1,3 +1,6 @@
+html, body{
+  height: 100%;
+}
 body {
   padding: 0;
   margin: 0;
@@ -42,6 +45,10 @@ body {
   text-decoration: underline;
 }
 
+.section-header{
+  text-decoration: underline;
+}
+
 .skills p{
   font-weight: bold;
 }
@@ -52,8 +59,6 @@ body {
   position: absolute;
   width: 100%;
   bottom: 0px;
-  left: 0px;
-  right: 0px;
 }
 
 .site-footer h4{
@@ -66,4 +71,10 @@ body {
 
 .site-footer ul li{
   display: inline-block;
+}
+
+@media all and (min-width: 320px) and (max-width: 1024px) {
+  .site-footer{
+    position: relative;
+  }
 }
